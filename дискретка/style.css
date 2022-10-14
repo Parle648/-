@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 800px;
+  background-color: rgb(255, 140, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper .main-title {
+  text-align: center;
+  font-size: 28px;
+  padding: 0.5em 0;
+  color: aliceblue;
+}
+.wrapper .calculation-block {
+  padding: 0.5em 0;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.wrapper .calculation-block .label-block {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 100px;
+}
+.wrapper .calculation-block .label-block .label-block-item {
+  font-size: 20px;
+  color: brown;
+  font-weight: 800;
+}
+.wrapper .calculation-block .input-plenty {
+  font-size: 20px;
+  border: 1px solid rgb(146, 90, 26);
+  border-radius: 5px;
+  color: rgba(3, 3, 3, 0.808);
+  cursor: pointer;
+}
+.wrapper .calculation-block .select {
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.wrapper .button-result {
+  font-size: 20px;
+  padding: 0.25em 1em;
+  border: 1px solid rgb(110, 91, 91);
+  border-radius: 5px;
+  background-color: rgb(185, 230, 103);
+  margin: 1em auto 1em;
+}
+.wrapper .button-result:hover {
+  background-color: rgb(129, 197, 2);
+  border-color: rgb(129, 197, 2);
+  cursor: pointer;
+}
+
+.forResult {
+  font-size: 20px;
+  padding: 0.5em 2.5em;
+  background-color: aliceblue;
+  border-radius: 0.25em;
+  margin-bottom: 2em;
+}

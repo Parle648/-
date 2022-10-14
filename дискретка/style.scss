@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 800px;
+    background-color: rgb(255, 140, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .main-title{
+        text-align: center;
+        font-size: 28px;
+        padding: .5em 0;
+        color: aliceblue;
+    }
+    .calculation-block{
+        padding: .5em 0;
+        font-size: 20px;
+        margin: 0 auto;
+        .label-block{
+            width:55%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 100px;
+            .label-block-item{
+                font-size: 20px;
+                color: brown;
+                font-weight: 800;
+            }
+        }
+        .input-plenty{
+            font-size: 20px;
+            border: 1px solid rgb(146, 90, 26);
+            border-radius: 5px;
+            color: rgba(3, 3, 3, 0.808);
+            cursor: pointer;
+        }
+        .select{
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+    }
+    .button-result{
+        font-size: 20px;
+        padding: .25em 1em;
+        border: 1px solid rgb(110, 91, 91);
+        border-radius: 5px;
+        background-color: rgb(185, 230, 103);
+        margin: 1em auto 1em;
+        &:hover{
+            background-color: rgb(129, 197, 2);
+            border-color: rgb(129, 197, 2);
+            cursor: pointer;
+        }
+    }
+}
+.forResult{
+    font-size: 20px;
+    padding: .5em 2.5em;
+    background-color: aliceblue;
+    border-radius: .25em;
+    margin-bottom: 2em;
+}
